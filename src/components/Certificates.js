@@ -1,7 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { CertificateCard } from "./CertificateCard"; // You can reuse ProjectCard or make a similar Card for Certificates
 import PythonEssentials1 from "../assets/img/Python Essentials 1.png";
-
+import PythonEssentials2 from "../assets/img/Python Essentials 2.png";
+import DSACodechef from "../assets/img/DSA Codechef.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -15,8 +16,14 @@ export const Certificates = () => {
       imgUrl: PythonEssentials1,
     
     },
-    
-
+    {
+      title: "Cisco: Python Essentials 2",
+      imgUrl: PythonEssentials2,
+    },
+    {
+      title: "DSA CODECHEF",
+      imgUrl: DSACodechef,
+    }
 
 
 
