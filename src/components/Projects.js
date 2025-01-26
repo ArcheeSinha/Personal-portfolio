@@ -11,7 +11,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Flappy Bird Plays AI",
+      title: "AI plays Flappy Bird",
       description: "AI designed to play the popular Flappy Bird Game",
       imgUrl: projImg1,
       url: "https://github.com/ArcheeSinha/AI-plays-Flappy-Bird"
